@@ -2,7 +2,7 @@
 # URL: https://leetcode.com/problems/two-sum/
 # Topic: Array / Hashmap
 # Difficulty: Easy
-# Time taken: <your actual time>
+# Time taken: 15 minutes
 
 # Intuition: brute force checks every pair (O(n²)).
 # Instead, store each number's complement (target - num) in a hashmap.
