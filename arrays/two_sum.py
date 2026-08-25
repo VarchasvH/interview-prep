@@ -10,10 +10,14 @@
 
 # Time: O(n) | Space: O(n)
 
-def twoSum(nums, target):
-    seen = {}
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        store = {}
+        for index, value in enumerate(nums):
+            complement = target - value
+
+            if complement in store:
+                return [store[complement], index]
+           
+            store[value] = index
+           
