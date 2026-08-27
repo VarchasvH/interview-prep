@@ -16,6 +16,7 @@ dsa-prep/
     contains_duplicate.py
   strings/
     valid_anagram.py
+    valid_palindrome
   sliding_window/
   stacks/
   two_pointers/
@@ -32,7 +33,7 @@ dsa-prep/
 - Phase 5 (Sep – Dec 2027): Applications + mock interviews
 
 ## Stats
-- Problems solved: 3
+- Problems solved: 4
 - Phase: 1 of 5
 
 ## Resources
